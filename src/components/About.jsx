@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Web Developer based in Jakarta, Indonesia, with a wealth
+        I'm a skilled Software Developer based in Jakarta, Indonesia, with a wealth
         of experience in both back-end and front-end web development. In my
         toolbox, I possess a range of technologies for each domain. On the back
         end, I'm proficient in PHP, Node.js, Laravel, and Microsoft SQL Server.
