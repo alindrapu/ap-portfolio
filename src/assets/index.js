@@ -17,6 +17,8 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 
 import ds from "./company/ds.png";
+import gkk from "./company/gkk.png";
+import echo from "./company/echo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -43,4 +45,6 @@ export {
   jobit,
   tripguide,
   ds,
+  gkk,
+  echo,
 };

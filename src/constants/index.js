@@ -11,6 +11,8 @@ import {
   git,
   figma,
   ds,
+  gkk,
+  echo,
   carrent,
   jobit,
   tripguide,
@@ -26,10 +28,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const services = [
@@ -89,7 +91,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Front End Developer",
     company_name: "PT. Datacaraka Solusindo",
     icon: ds,
     iconBg: "#383E56",
@@ -100,6 +102,29 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Developing queries with SQL Server and processing server side backend with Native PHP",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "PT. LSP Gatensi Karya Konstruksi",
+    icon: gkk,
+    iconBg: "#383E56",
+    date: "October 2021 - July 2023",
+    points: [
+      "Proficiency in Laravel framework for building internal web applications.",
+      "Integration of RESTful APIs from government sources like SIKI and BNSP for national certification in civil engineering expertise.",
+      "MySQL database management skills, including query optimization, data normalization, and database design.",
+      "Frontend development skills encompassing ReactJS, Tailwind CSS, and various package managers.",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "PT. Echo Script Indonesia",
+    icon: echo,
+    iconBg: "#383E56",
+    date: "February 2015 - March 2015",
+    points: [
+      "Proficiency in PHP, HTML, and CSS gained through hands-on experience as a PHP and WordPress web developer intern.",
     ],
   },
 ];
